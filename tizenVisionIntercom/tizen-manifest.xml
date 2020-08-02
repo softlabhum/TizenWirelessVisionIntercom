@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns="http://tizen.org/ns/packages" api-version="5.5" package="org.example.tizenvisionintercom" version="1.0.0">
-    <profile name="iot-headed" />
-    <service-application appid="org.example.tizenvisionintercom" exec="tizenvisionintercom" type="capp" multiple="false" taskmanage="false" nodisplay="true">
-        <icon>tizenvisionintercom.png</icon>
-        <label>tizenvisionintercom</label>
-	</service-application>
-</manifest>
