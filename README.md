@@ -1,2 +1,2 @@
 # TigenWirelessVisionIntercom
-tigen iot system
+tizen wireless vision intercom iot solution
