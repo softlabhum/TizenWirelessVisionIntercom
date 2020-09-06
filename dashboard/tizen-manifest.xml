@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="5.5" package="org.tizen.smart-surveillance-camera.dashboard" version="1.0.0">
+    <profile name="iot-headed"/>
+    <service-application appid="org.tizen.smart-surveillance-camera.dashboard" auto-restart="false" exec="dashboard" multiple="false" nodisplay="true" on-boot="true" taskmanage="false" type="capp">
+        <label>dashboard</label>
+        <icon>dashboard.png</icon>
+        <background-category value="iot-communication"/>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+    </privileges>
+</manifest>
